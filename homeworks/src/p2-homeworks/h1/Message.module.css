@@ -1,0 +1,52 @@
+.messages {
+    background-color: aquamarine;
+    width: 40%;
+    display: flex;
+    padding: 10px;
+
+}
+
+.avatar {
+    margin-top: 40px;
+}
+
+.avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.message_wrapper {
+    background-color: #282c34;
+    width: 70%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    position: relative;
+}
+
+.message_wrapper:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -28px;
+    border: 20px solid transparent;
+    border-right: 20px solid #282c34;
+    border-bottom: 20px solid #282c34;
+}
+
+.name {
+    color: #61dafb;
+}
+
+.message {
+    color: aquamarine;
+}
+
+.time {
+    margin-top: 60px;
+    color: gray;
+
+}

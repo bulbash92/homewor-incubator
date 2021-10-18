@@ -1,0 +1,15 @@
+.buttonContainer {
+    margin-top: 20px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonContainer button {
+    background-color: darkcyan;
+    border-radius: 7px;
+}
+
+.buttonContainer button:hover {
+    cursor: pointer;
+}
