@@ -1,0 +1,80 @@
+.headerWrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 30%;
+    background-color: #555555;
+    padding: 10px;
+    transform: translateX(-100%);
+    left: 0;
+    transition: all 0.2s;
+    position: fixed;
+}
+
+.navActive {
+    width: 30%;
+    background-color: #555555;
+    padding: 10px;
+    transform: translateX(0);
+    left: 0;
+    transition: all 0.2s;
+    position: fixed;
+}
+
+.burger {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 1px;
+    cursor: pointer;
+}
+.burger span {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 10px;
+    background-color: #555555;
+}
+
+.burger:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 2px;
+    background-color: #555555;
+}
+
+.burger:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    bottom: 2px;
+    background-color: #555555;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link a.active {
+    color: gold;
+    font-weight: bold;
+}
+
+.errorContainer {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://besthqwallpapers.com/Uploads/30-1-2020/120284/thumb-404-page-not-found-violet-logo-4k-violet-brickwall-404-page-not-found-logo-brands.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}

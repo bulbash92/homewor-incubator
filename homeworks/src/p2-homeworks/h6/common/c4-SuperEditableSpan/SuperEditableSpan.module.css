@@ -1,0 +1,7 @@
+.superSpan {
+    color: dimgray;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    font-size: 18px;
+}
